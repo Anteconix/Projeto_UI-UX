@@ -1,12 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
     margin: 0px;
+}
 
+.logoheader img {
+    height: 50px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+   
+}
+
+.menu h1 {
+    font-size: 30px;
+    font-family:  'Rubik', sans-serif;
+    color: #525252;
+    font-weight: lighter;
+}
+
+.menu-suporte {
+    padding-left: 80px;
+}
+.menu-sobre {
+    padding-left: 60px;
+}
+.menu-vagas {
+    padding-left: 60px;
+}
+.menu-cadastro {
+    padding-left: 60px;
+}
+
+.entrar{
+    display: flex;
+    padding-left: 350px;
+}
+
+.entrar button{
+    background: #10AC45;
+    border-radius: 200px;
+    border: none;
+    font-size: 30px;
+    padding: 10px 40px 10px 40px;
+    color: #ffff;
+    font-family:  'Rubik', sans-serif;
+}
+
+.entrar button:hover {
+    background: #148038;
 }
 
 .cabecalho {
     background-color: #E8EDF6;
     margin-top: 0;
-    
     display: flex;
     padding: 30px 0px 30px 30px;
+    border-bottom: 2px solid #525252;
+}
+
+.meio {
+    background-color: #E8EDF6;
+    height: 500px;
+    display: flex;
+    
+}
+
+.titulo-meio {
+    display: flex;
+    padding: 30px 50px 100px 70px;
+}
+
+.titulo-meio h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 10;
+    color: #055849;
+    font-size: 50px;
+}
+
+.img-meio img {
+    display: flex;
+    height: 110%;    
+    
+}
+
+
+
+
+
+
+
+
+
+
+.meio2 {
+    background-color: #EEEDEB;
+    height: 500px;
+    display: flex;
 }
