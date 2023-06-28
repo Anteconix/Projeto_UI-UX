@@ -222,7 +222,7 @@
     display: flex;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
+    font-weight: light;
     color: #10AC45;
     align-items: start;
     justify-content: start;
@@ -292,12 +292,11 @@
 }
 
 .concordar button{
-    height: 10vh;
-    width: 55vh;
+    height: 13vh;
     background: #10AC45;
     border-radius: 7px;
     border: none;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px 40px 10px 40px;
     color: #ffff;
     font-family:  'Rubik', sans-serif;

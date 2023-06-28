@@ -6,10 +6,10 @@
 }
 
 /* html, body {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
-    /* min-height: 1920px;
+    overflow-x: hidden;
+     min-height: 1920px;
     min-width: 1080px;
-} */ 
+}  */
 
 .logoheader img {
     height: 55px;
@@ -109,7 +109,7 @@
 .img-meio img {
     display: flex;
     height: 110%;
-    width: 110%;   
+    width: 110%;
     position: relative;
     left: 450px;
     top: 30px;
@@ -215,7 +215,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .passos {
@@ -229,7 +229,7 @@
     font-family:  'Rubik', sans-serif;
     font-size: 20px;
     color: #10AC45;
-    font-weight: lighter;
+    font-weight: light;
 }
 
 .titulo-cadastro1 {
@@ -238,6 +238,7 @@
     align-items: start;
     justify-content: start;
 }
+
 
 .titulo-cadastro1 h1 {
     color: #055849;
@@ -258,7 +259,7 @@
     font-size: 20px;
     color: #10AC45;
     font-weight: light;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .caixa-cadastro1 {
@@ -269,17 +270,24 @@
     width: 500px; /* Defina a largura desejada */
     height: 60px; /* Defina a altura desejada */
     padding: 8px; /* Adicione algum preenchimento interno para melhorar a aparência */
-    font-size: 16px; /* Defina o tamanho da fonte desejado */
+    font-size: 20px; /* Defina o tamanho da fonte desejado */
     border: 2px solid #525252; /* Adicione uma borda */
     border-radius: 4px; /* Adicione cantos arredondados */
     box-sizing: border-box;
     background-color: #E8E7E7;
 }
 
-.caixa-cadastro1 input::placeholder {
-    color: #055849; /* Defina a cor do placeholder */
+#email {
+    font-family: 'Rubik', sans-serif;
+    padding-left: 30px;
     font-weight: bold;
-    padding-left: 1.5vh;
+    color: #055849;
+}
+
+.caixa-cadastro1 input::placeholder {
+    color: #055849;
+    font-weight: bold;
+    /* padding-left: 1.5vh; */
 }
 
 .btn-cadastro1 {
