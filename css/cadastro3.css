@@ -6,6 +6,7 @@
 }
 
 html, body {
+    background-color: #E8EDF6;
      overflow-x: hidden;
 } 
 
@@ -15,44 +16,6 @@ html, body {
     left: 60px;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 50px;
-}
-
-.menu h1 {
-    font-size: 25px;
-    font-family:  'Rubik', sans-serif;
-    color: #525252;
-    font-weight: lighter;
-}
-
-.menu-suporte {
-    padding-left: 80px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
-.menu-sobre {
-    padding-left: 60px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
-.menu-vagas {
-    padding-left: 60px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
-.menu-cadastro {
-    padding-left: 60px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
 
 .cabecalho {
     background-color: #E8EDF6;
@@ -116,30 +79,9 @@ html, body {
 }
 
 .entrar button:hover {
-    background: #148038;
+    background: #055849;
 }
 
-.rodape-cadastro {
-    background-color: #E2DED5;
-}
-
-.logofooter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 2vh ;
-    padding-bottom: 6vh;
-}
-
-.logofooter img {
-    height: 40px;
-}
-
-.logofooter h6 {
-    font-family: inter;
-    color: #525252;
-    padding-top: 4vh;
-}
 
 .desc-cadastro3 {
     padding-top: 2vh;
@@ -212,38 +154,66 @@ html, body {
     margin-bottom: 5vh;
 }
 
-.menu-contrato {
-    padding-left: 55vh;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-    padding-bottom: 4vh;
+/* INICIO RODAPE */
+
+.rodape-cadastro {
+    background-color: #E2DED5;
+    margin-top: 30px;
 }
 
-.menu-contrato h1{
-    font-size: 20px;
+.logofooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh ;
+    padding-bottom: 6vh;
 }
 
-.menu-sobre-footer {
-    padding-left: 10vh;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-    padding-bottom: 4vh;
+.logofooter img {
+    height: 40px;
 }
 
-.menu-sobre-footer h1{
-    font-size: 20px;
+.logofooter h6 {
+    padding-left: -6vh;
+    font-family: inter;
+    color: #525252;
+    padding-top: 4vh;
 }
 
-.menu-politica {
-    padding-left: 10vh;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-    padding-bottom: 4vh;
+.logo-copy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-.menu-politica h1{
-    font-size: 20px;
+.copyright{
+    padding: 6vh 0vh 0vh;
+    margin-left: -25px;
+    color: #525252;
+    font-family: Inter;
+    font-size: 10px;
 }
+
+.menu{
+    padding-left: 12vh;
+    display: flex;
+    font-weight: light;
+    font-size: 12px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: inter;
+    color: #525252;
+    padding-bottom: 2vh;
+}
+
+.termos{
+    padding: 0vh 3vh 0vh 3vh;
+}
+
+.sobre{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.politica{
+    padding: 0vh 3vh 0vh 3vh;
+}
+
+/* FIM RODAPE */

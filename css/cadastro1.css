@@ -5,11 +5,9 @@
     margin: 0px;
 }
 
-/* html, body {
+html, body {
     overflow-x: hidden;
-     min-height: 1920px;
-    min-width: 1080px;
-}  */
+} 
 
 .logoheader img {
     height: 55px;
@@ -17,65 +15,6 @@
     left: 60px;
 }
 
-.menu {
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 50px;
-}
-
-.menu h1 {
-    font-size: 25px;
-    font-family:  'Rubik', sans-serif;
-    color: #525252;
-    font-weight: lighter;
-}
-
-.menu-suporte {
-    padding-left: 80px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
-.menu-sobre {
-    padding-left: 60px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
-.menu-vagas {
-    padding-left: 60px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
-.menu-cadastro {
-    padding-left: 60px;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-}
-
-.entrar{
-    display: flex;
-    padding-left: 400px;
-    cursor: pointer;
-}
-
-.entrar button{
-    background: #10AC45;
-    border-radius: 200px;
-    border: none;
-    font-size: 30px;
-    padding: 10px 40px 10px 40px;
-    color: #ffff;
-    font-family:  'Rubik', sans-serif;
-    cursor: pointer;
-}
-
-.entrar button:hover {
-    background: #148038;
-}
 
 .cabecalho {
     background-color: #E8EDF6;
@@ -85,129 +24,7 @@
     border-bottom: 2px solid #525252;
 }
 
-.meio {
-    background-color: #E8EDF6;
-    height: fit-content;
-    display: flex;
-}
-
-.titulo-meio {
-    display: flex;
-}
-
-.titulo-meio h1 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 10;
-    color: #055849;
-    font-size: 45px;
-    position: relative;
-    left: 130px;
-    top: 30px;
-    height: 120px;
-}
-
-.img-meio img {
-    display: flex;
-    height: 110%;
-    width: 110%;
-    position: relative;
-    left: 450px;
-    top: 30px;
-}
-
-.meio2 {
-    background-color: #EEEDEB;
-    height: 850px;
-    display: flex;
-}
-
-.login {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    right: 1211px;
-    top: 200px;
-    height: 500px;
-    width: 500px;
-
-}
-
-.login input {
-    border-radius: 7px;
-    height: 55px;
-    border: 2px solid #676767 ;
-    font-size: 25px;
-}
-
-.login  {
-    color: #676767;
-    font-family: inter;
-    font-size: 20px;
-}
-
-.form form {
-    display: flex;
-    gap: 4px;
-}
-
-#login-btn {
-    background-color: #10AC45;
-    color: white;
-    font-family: Rubik;
-    font-size: 22px;
-    font-weight: 550;
-    border-radius: 500px;
-    position: relative;
-    bottom: 10px;
-    height: 55px;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-}
-
-#google-btn {
-    background-color: #F9FBFF;
-    border: solid 1px #525252;
-    color: #525252;
-    font-family: Rubik;
-    font-size: 22px;
-    font-weight: 550;
-    border-radius: 500px;
-    position: relative;
-    top: 100px;
-    height: 55px;
-    text-align: center;
-}
-
-#google-btn h1 {
-    font-size: 22px;
-    font-weight: 550;
-    position: relative;
-    top: 13px;
-}
-
-#login-btn h1 {
-    font-size: 22px;
-    font-weight: 550;
-    position: relative;
-    top: 13px;
-}
-
-
-.form a {
-    position: relative;
-    bottom: 30px;
-    font-family: Rubik;
-    font-weight: 650;
-    color: #10AC45;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.ou {
-    position: relative;
-    top: 50px;
-}
+/* FIM CABECALHO */
 
 .meio-cadastro {
     background-color: #E8EDF6;
@@ -249,6 +66,7 @@
 
 .desc-cadastro1 {
     padding-top: 2vh;
+    padding-bottom: 2vh;
     display: flex;
     align-items: start;
     justify-content: start;
@@ -311,14 +129,19 @@
     cursor: pointer;
 }
 
+.btn-cadastro1 button:hover{
+    background: #055849;
+}
+
 /* INICIO RODAPE */
+
 .rodape-cadastro {
+    margin-top: -110px;
     background-color: #E2DED5;
 }
 
 .logofooter {
     display: flex;
-    align-items: center;
     justify-content: center;
     padding-top: 2vh ;
     padding-bottom: 6vh;
@@ -329,44 +152,47 @@
 }
 
 .logofooter h6 {
+    padding-left: -6vh;
     font-family: inter;
     color: #525252;
     padding-top: 4vh;
 }
 
-.menu-contrato {
-    padding-left: 55vh;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-    padding-bottom: 4vh;
+.logo-copy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
-.menu-contrato h1{
-    font-size: 20px;
+.copyright{
+    padding: 6vh 0vh 0vh;
+    margin-left: -25px;
+    color: #525252;
+    font-family: Inter;
+    font-size: 10px;
 }
 
-.menu-sobre-footer {
-    padding-left: 10vh;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-    padding-bottom: 4vh;
+.menu{
+    padding-left: 12vh;
+    display: flex;
+    font-weight: light;
+    font-size: 12px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: inter;
+    color: #525252;
+    padding-bottom: 2vh;
 }
 
-.menu-sobre-footer h1{
-    font-size: 20px;
+.termos{
+    padding: 0vh 3vh 0vh 3vh;
 }
 
-.menu-politica {
-    padding-left: 10vh;
-    position: relative;
-    left: 30px;
-    cursor: pointer;
-    padding-bottom: 4vh;
+.sobre{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.politica{
+    padding: 0vh 3vh 0vh 3vh;
 }
 
-.menu-politica h1{
-    font-size: 20px;
-}
 /* FIM RODAPE */
