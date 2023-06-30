@@ -17,17 +17,17 @@ html, body {
 
 
 .cabecalho {
-    background-color: #E8EDF6;
+    background-color: #1d2222;
     margin-top: 0;
     display: flex;
     padding: 30px 0px 30px 30px;
-    border-bottom: 2px solid #525252;
+    border-bottom: 2px solid #747c84;
 }
 
 /* FIM CABECALHO */
 
-.meio-login {
-    background-color: #E8EDF6;
+.meio-cadastro {
+    background-color: #1d2222;
     height: fit-content;
     display: grid;
     justify-content: center;
@@ -35,9 +35,21 @@ html, body {
     flex-direction: column;
 }
 
+.passos {
+    padding-top: 5vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
 
+.passos h2 {
+    font-family:  'Rubik', sans-serif;
+    font-size: 20px;
+    color: #10AC45;
+    font-weight: light;
+}
 
-.titulo-login2 {
+.titulo-cadastro1 {
     font-family:  'Rubik', sans-serif;
     display: flex;
     align-items: start;
@@ -45,22 +57,22 @@ html, body {
 }
 
 
-.titulo-login2 h1 {
-    color: #055849;
+.titulo-cadastro1 h1 {
+    color: #0a9b80;
     font-size: 45px;
-    padding-top: 7vh;
+    padding-top: 1vh;
     font-weight: 1000;
 }
 
-.desc-login2 {
-    padding-top: 3vh;
+.desc-cadastro1 {
+    padding-top: 2vh;
     padding-bottom: 2vh;
     display: flex;
     align-items: start;
     justify-content: start;
 }
 
-.desc-login2 h2 {
+.desc-cadastro1 h2 {
     font-family:  'Rubik', sans-serif;
     font-size: 20px;
     color: #10AC45;
@@ -68,53 +80,35 @@ html, body {
     line-height: 30px;
 }
 
-.desc-login2-1 {
-    padding-top: 1vh;
-    padding-bottom: 2vh;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-}
-
-.desc-login2-1 h3 {
-    font-family:  'Rubik', sans-serif;
-    font-size: 15px;
-    color: #10AC45;
-    font-weight: light;
-    line-height: 30px;
-}
-
-.caixa-login2 {
+.caixa-cadastro1 {
     padding-top: 2vh;
-    position: relative;
-    padding-right: 50px;
 }
 
-.caixa-login2 input {
+.caixa-cadastro1 input {
     width: 500px; /* Defina a largura desejada */
     height: 60px; /* Defina a altura desejada */
     padding: 8px; /* Adicione algum preenchimento interno para melhorar a aparência */
     font-size: 20px; /* Defina o tamanho da fonte desejado */
-    border: 2px solid #525252; /* Adicione uma borda */
+    border: 2px solid #747c84; /* Adicione uma borda */
     border-radius: 4px; /* Adicione cantos arredondados */
     box-sizing: border-box;
-    background-color: #E8E7E7;
-    padding-right: 40px;
+    background-color: #1d2222;
 }
 
-#senha {
+#email {
     font-family: 'Rubik', sans-serif;
     padding-left: 30px;
     font-weight: bold;
-    color: #055849;
+    color: #0a9b80;
 }
 
-.caixa-login2 input::placeholder {
-    color: #055849;
+.caixa-cadastro1 input::placeholder {
+    color: #0a9b80;
     font-weight: bold;
+    /* padding-left: 1.5vh; */
 }
 
-.btn-login2 {
+.btn-cadastro1 {
     padding-top: 7vh;
     display: flex;
     align-items: center;
@@ -122,7 +116,7 @@ html, body {
     padding-bottom: 40vh;
 }
 
-.btn-login2 button{
+.btn-cadastro1 button{
     height: 10vh;
     width: 40vh;
     background: #10AC45;
@@ -135,33 +129,15 @@ html, body {
     cursor: pointer;
 }
 
-.btn-login2 button:hover{
+.btn-cadastro1 button:hover{
     background: #055849;
 }
-
-.mostra-senha {
-    position: absolute;
-    top: 4vh;
-    right: 0;
-}
-
-.mostra-senha img {
-    width: 30px;
-    height: 30px;
-}
-
-.mostra-senha button {
-    background: none;
-    border: none;
-}
-
-
 
 /* INICIO RODAPE */
 
 .rodape-cadastro {
-    margin-top: -119px;
-    background-color: #E2DED5;
+    margin-top: -110px;
+    background-color: #181818;
 }
 
 .logofooter {
@@ -178,7 +154,6 @@ html, body {
 .logofooter h6 {
     padding-left: -6vh;
     font-family: inter;
-    color: #525252;
     padding-top: 4vh;
 }
 
@@ -191,7 +166,7 @@ html, body {
 .copyright{
     padding: 6vh 0vh 0vh;
     margin-left: -25px;
-    color: #525252;
+    color: #747c84;
     font-family: Inter;
     font-size: 10px;
 }
@@ -204,7 +179,7 @@ html, body {
     flex-wrap: nowrap;
     justify-content: center;
     font-family: inter;
-    color: #525252;
+    color: #747c84;
     padding-bottom: 2vh;
 }
 

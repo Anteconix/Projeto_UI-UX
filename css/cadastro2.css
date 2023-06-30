@@ -6,15 +6,16 @@
 }
 
 html, body {
-    overflow-x: hidden; 
     background-color: #E8EDF6;
-}
+     overflow-x: hidden;
+} 
 
 .logoheader img {
     height: 55px;
     position: relative;
     left: 60px;
 }
+
 
 .cabecalho {
     background-color: #E8EDF6;
@@ -27,7 +28,7 @@ html, body {
 .meio-cadastro {
     display: grid;
     background-color: #E8EDF6;
-    height: auto;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -56,58 +57,17 @@ html, body {
     padding-bottom: 2vh;
 } 
 
-.contrato h2{
-    display: flex;
-    padding: 4vh;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-    color: #10AC45;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.contrato{
-    display: flex;
-    border: 0.3vh solid;
-    border-color: #525252;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: #E8E7E7;
-}
-
-.concordar-texto h2{
-    display: flex;
-    padding-top: 3vh;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-    color: #10AC45;
-    text-align: center;
-    justify-content: center;
-}
-
-.concordar-texto h3{
-    display: flex;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-    color: #10AC45;
-    text-align: center;
-    justify-content: center;
-}
-
-.concordar{
+.entrar{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3vh;
     padding-bottom: 5vh;
 }
 
-.concordar button{
+.entrar button{
     height: 13vh;
+    margin-top: 2vh;
+    width: 300px;
     background: #10AC45;
     border-radius: 7px;
     border: none;
@@ -118,15 +78,87 @@ html, body {
     cursor: pointer;
 }
 
-.concordar button:hover{
+.entrar button:hover {
     background: #055849;
+}
+
+
+.desc-cadastro2 {
+    padding-top: 2vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.desc-cadastro2 h2 {
+    font-family:  'Rubik', sans-serif;
+    font-size: 20px;
+    color: #10AC45;
+    font-weight: light;
+    line-height: 30px;
+    margin-bottom: 5vh;
+}
+
+.caixa-cadastro2 {
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+}
+
+.caixa-cadastro2 input {
+    width: 500px;
+    height: 60px; /* Defina a altura desejada */
+    padding: 8px; /* Adicione algum preenchimento interno para melhorar a aparência */
+    font-size: 20px; /* Defina o tamanho da fonte desejado */
+    border: 2px solid #525252; /* Adicione uma borda */
+    border-radius: 4px; /* Adicione cantos arredondados */
+    box-sizing: border-box;
+    background-color: #E8E7E7;
+}
+
+#senha {
+    font-family: 'Rubik', sans-serif;
+    padding-left: 30px;
+    font-weight: bold;
+    color: #055849;
+}
+
+.caixa-cadastro3 input::placeholder {
+    color: #055849;
+    font-weight: bold;
+    /* padding-left: 1.5vh; */
+}
+
+.desc-senha h2{
+    font-family:  'Rubik', sans-serif;
+    font-size: 16px;
+    color: #10AC45;
+    font-weight: light;
+    line-height: 30px;
+    margin-bottom: 5vh;
+}
+
+.criar-conta h3{
+    font-family:  'Rubik', sans-serif;
+    font-size: 16px;
+    color: #10AC45;
+    font-weight: light;
+    line-height: 30px;
+}
+
+.criar-conta h2{
+    font-family:  'Rubik', sans-serif;
+    font-size: 26px;
+    color: #055849;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-bottom: 5vh;
 }
 
 /* INICIO RODAPE */
 
 .rodape-cadastro {
-    margin-top: 50px;
     background-color: #E2DED5;
+    margin-top: 30px;
 }
 
 .logofooter {
@@ -176,9 +208,12 @@ html, body {
 .termos{
     padding: 0vh 3vh 0vh 3vh;
 }
+
 .sobre{
     padding: 0vh 3vh 0vh 3vh;
 }
 .politica{
     padding: 0vh 3vh 0vh 3vh;
 }
+
+/* FIM RODAPE */
