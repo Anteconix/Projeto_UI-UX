@@ -5,7 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/cadastro3.css">
+        <link rel="stylesheet" href="css/login2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="./img/logo.ico">
         <title>OpenPath</title>
     </head>
 
@@ -15,44 +17,37 @@
                 <img src="./img/logo.svg" alt="LOGO">
             </div>
         </div>
-
-<!--FIM CABECALHO-->
-
-        <div class="meio-cadastro">
-            <div></div>
-            <div class="passos">
-                <h2>Passo 3 de 4</h2>
+<!-- FIM CABECALHO -->
+      <div class="meio-login">
+            <div class="titulo-login2">
+                <h1>Digite sua senha</h1>
             </div>
-            <div class="titulo-cadastro3">
-                <h1>Crie uma Senha</h1>
-            </div>
-            <div class="desc-cadastro3">
+
+            <div class="desc-login2">
                 <h2>
                     Utilize esse e-mail e senha para acessar sua conta no<br>
                     OpenPath e encontrar oportunidades profissionais <br>
                     que combinam com você.
                 </h2>
             </div>
-            <div class="caixa-cadastro3">
-                <input type="password" name="" id="senha" placeholder="Senha">
-            </div>
-            <div class="desc-senha">
-                <h2>Use no mínimo 8 carácteres (com distinção entre maiúsculas<br> e minúsculas) com pelo menos um número ou caractere especial.</h2>
-            </div>
-            <div class="criar-conta">
-                <h3>
-                    Você vai usar esse e-mail para criar a sua conta:
-                </h3>
-                <h2>
-                    pessoabonita@catolicasc.edu.br
-                </h2>
-            </div>
-            <div class="entrar">
-                <a href="#"><button><h1>Entrar</h1></button></a>
-            </div>
-            <div></div>
-        </div>
 
+            <div class="caixa-login2">
+                <input type="password" name="dasd" id="senha" placeholder="Senha">
+                <div class="mostra-senha">
+                    <button id="mostrarSenha">
+                        <img id="iconeOlho" src="./img/mostra-senha.svg"></img>
+                      </button>
+                </div>
+            </div>
+            <div class="desc-login2-1">
+                <h3>
+                    (Letras maiúsculas e minúsculas)
+                </h3>
+            </div>
+            <div class="btn-login2">
+                <a href="/home.html"><button>Continuar</button> </a>
+            </div>
+      </div>
 <!-- FIM BODY -->
 
         <footer>
@@ -78,5 +73,22 @@
                 </div>
             </div>
         </footer>
+        
+    
+        <script>
+        var mostrarSenhaBtn = document.getElementById("mostrarSenha");
+var senhaInput = document.getElementById("senha");
+var iconeOlho = document.getElementById("iconeOlho");
+
+mostrarSenhaBtn.addEventListener("click", function() {
+  if (senhaInput.type === "password") {
+    senhaInput.type = "text";
+    iconeOlho.src = src="./img/oculta-senha.svg";
+  } else {
+    senhaInput.type = "password";
+    iconeOlho.src = src="./img/mostra-senha.svg";
+  }
+});
+        </script>
     </body>
 </html>

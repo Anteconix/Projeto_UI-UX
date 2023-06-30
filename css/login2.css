@@ -6,15 +6,15 @@
 }
 
 html, body {
-    overflow-x: hidden; 
-    background-color: #E8EDF6;
-}
+    overflow-x: hidden;
+} 
 
 .logoheader img {
     height: 55px;
     position: relative;
     left: 60px;
 }
+
 
 .cabecalho {
     background-color: #E8EDF6;
@@ -24,108 +24,143 @@ html, body {
     border-bottom: 2px solid #525252;
 }
 
-.meio-cadastro {
-    display: grid;
+/* FIM CABECALHO */
+
+.meio-login {
     background-color: #E8EDF6;
-    height: auto;
+    height: fit-content;
+    display: grid;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.passos h2{
+
+
+.titulo-login2 {
+    font-family:  'Rubik', sans-serif;
     display: flex;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: light;
-    color: #10AC45;
     align-items: start;
     justify-content: start;
-    padding-top: 5vh;
 }
 
-.titulo-cadastro2 h1{
-    display: flex;
-    font-size: 45px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: bolder;
+
+.titulo-login2 h1 {
     color: #055849;
+    font-size: 45px;
+    padding-top: 7vh;
+    font-weight: 1000;
+}
+
+.desc-login2 {
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    display: flex;
     align-items: start;
     justify-content: start;
+}
+
+.desc-login2 h2 {
+    font-family:  'Rubik', sans-serif;
+    font-size: 20px;
+    color: #10AC45;
+    font-weight: light;
+    line-height: 30px;
+}
+
+.desc-login2-1 {
     padding-top: 1vh;
     padding-bottom: 2vh;
-} 
-
-.contrato h2{
     display: flex;
-    padding: 4vh;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-    color: #10AC45;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: start;
+    justify-content: start;
 }
 
-.contrato{
-    display: flex;
-    border: 0.3vh solid;
-    border-color: #525252;
+.desc-login2-1 h3 {
+    font-family:  'Rubik', sans-serif;
+    font-size: 15px;
+    color: #10AC45;
+    font-weight: light;
+    line-height: 30px;
+}
+
+.caixa-login2 {
+    padding-top: 2vh;
+    position: relative;
+    padding-right: 50px;
+}
+
+.caixa-login2 input {
+    width: 500px; /* Defina a largura desejada */
+    height: 60px; /* Defina a altura desejada */
+    padding: 8px; /* Adicione algum preenchimento interno para melhorar a aparência */
+    font-size: 20px; /* Defina o tamanho da fonte desejado */
+    border: 2px solid #525252; /* Adicione uma borda */
+    border-radius: 4px; /* Adicione cantos arredondados */
     box-sizing: border-box;
-    border-radius: 10px;
     background-color: #E8E7E7;
+    padding-right: 40px;
 }
 
-.concordar-texto h2{
-    display: flex;
-    padding-top: 3vh;
-    font-size: 20px;
+#senha {
     font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-    color: #10AC45;
-    text-align: center;
-    justify-content: center;
+    padding-left: 30px;
+    font-weight: bold;
+    color: #055849;
 }
 
-.concordar-texto h3{
-    display: flex;
-    font-size: 20px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-    color: #10AC45;
-    text-align: center;
-    justify-content: center;
+.caixa-login2 input::placeholder {
+    color: #055849;
+    font-weight: bold;
 }
 
-.concordar{
+.btn-login2 {
+    padding-top: 7vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 3vh;
-    padding-bottom: 5vh;
+    padding-bottom: 40vh;
 }
 
-.concordar button{
-    height: 13vh;
+.btn-login2 button{
+    height: 10vh;
+    width: 40vh;
     background: #10AC45;
     border-radius: 7px;
     border: none;
-    font-size: 15px;
+    font-size: 30px;
     padding: 10px 40px 10px 40px;
     color: #ffff;
     font-family:  'Rubik', sans-serif;
     cursor: pointer;
 }
 
-.concordar button:hover{
+.btn-login2 button:hover{
     background: #055849;
 }
+
+.mostra-senha {
+    position: absolute;
+    top: 4vh;
+    right: 0;
+}
+
+.mostra-senha img {
+    width: 30px;
+    height: 30px;
+}
+
+.mostra-senha button {
+    background: none;
+    border: none;
+}
+
+
 
 /* INICIO RODAPE */
 
 .rodape-cadastro {
-    margin-top: 50px;
+    margin-top: -154px;
     background-color: #E2DED5;
 }
 
@@ -176,9 +211,12 @@ html, body {
 .termos{
     padding: 0vh 3vh 0vh 3vh;
 }
+
 .sobre{
     padding: 0vh 3vh 0vh 3vh;
 }
 .politica{
     padding: 0vh 3vh 0vh 3vh;
 }
+
+/* FIM RODAPE */
