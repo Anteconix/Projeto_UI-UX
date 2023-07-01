@@ -6,8 +6,8 @@
 }
 
 html, body {
-    background-color: #E8EDF6;
-     overflow-x: hidden;
+    overflow-x: hidden;
+    background-color: #1d2222;
 } 
 
 .logoheader img {
@@ -16,18 +16,17 @@ html, body {
     left: 60px;
 }
 
-
 .cabecalho {
-    background-color: #E8EDF6;
+    background-color: #1d2222;
     margin-top: 0;
     display: flex;
     padding: 30px 0px 30px 30px;
-    border-bottom: 2px solid #525252;
+    border-bottom: 2px solid #747c84;
 }
 
 .meio-cadastro {
     display: grid;
-    background-color: #E8EDF6;
+    background-color: #1d2222;
     height: fit-content;
     justify-content: center;
     align-items: center;
@@ -50,7 +49,7 @@ html, body {
     font-size: 45px;
     font-family: 'Rubik', sans-serif;
     font-weight: bolder;
-    color: #055849;
+    color: #0a9b80;
     align-items: start;
     justify-content: start;
     padding-top: 1vh;
@@ -109,10 +108,10 @@ html, body {
     height: 60px; /* Defina a altura desejada */
     padding: 8px; /* Adicione algum preenchimento interno para melhorar a aparência */
     font-size: 20px; /* Defina o tamanho da fonte desejado */
-    border: 2px solid #525252; /* Adicione uma borda */
+    border: 2px solid #747c84; /* Adicione uma borda */
     border-radius: 4px; /* Adicione cantos arredondados */
     box-sizing: border-box;
-    background-color: #E8E7E7;
+    background-color: #1d2222;
 }
 
 #senha {
@@ -148,7 +147,7 @@ html, body {
 .criar-conta h2{
     font-family:  'Rubik', sans-serif;
     font-size: 26px;
-    color: #055849;
+    color: #0a9b80;
     font-weight: bolder;
     line-height: 30px;
     margin-bottom: 5vh;
@@ -157,7 +156,7 @@ html, body {
 /* INICIO RODAPE */
 
 .rodape-cadastro {
-    background-color: #E2DED5;
+    background-color: #181818;
     margin-top: 30px;
 }
 
@@ -188,7 +187,7 @@ html, body {
 .copyright{
     padding: 6vh 0vh 0vh;
     margin-left: -25px;
-    color: #525252;
+    color: #747c84;
     font-family: Inter;
     font-size: 10px;
 }
@@ -201,8 +200,8 @@ html, body {
     flex-wrap: nowrap;
     justify-content: center;
     font-family: inter;
-    color: #525252;
-    padding-bottom: 2vh;
+    color: #747c84;
+    padding-bottom: 3vh;
 }
 
 .termos{

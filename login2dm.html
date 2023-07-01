@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/login2dm.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <title>OpenPath</title>
+    </head>
+
+    <body>
+        <div class="cabecalho">
+            <div class="logoheader"> 
+                <img src="./img/logo.svg" alt="LOGO">
+            </div>
+        </div>
+<!-- FIM CABECALHO -->
+      <div class="meio-login">
+            <div class="titulo-login2">
+                <h1>Digite sua senha</h1>
+            </div>
+
+            <div class="desc-login2">
+                <h2>
+                    Utilize esse e-mail e senha para acessar sua conta no<br>
+                    OpenPath e encontrar oportunidades profissionais <br>
+                    que combinam com você.
+                </h2>
+            </div>
+
+            <div class="caixa-login2">
+                <input type="password" name="dasd" id="senha" placeholder="Senha"><div class="mostra-senha">
+                    <button id="mostrarSenha">
+                        <img id="iconeOlho" src="./img/mostra-senha.svg"></img>
+                      </button>
+                </div>
+            </div>
+            <div class="desc-login2-1">
+                <h3>
+                    (Letras maiúsculas e minúsculas)
+                </h3>
+            </div>
+            <div class="btn-login2">
+                <a href="/home.html"><button>Continuar</button> </a>
+            </div>
+      </div>
+
+<!-- FIM BODY -->
+
+        <footer>
+            <div class="rodape-cadastro">
+                <div class="logo-copy">
+                    <div class="logofooter"> 
+                        <img src="./img/logo.svg" alt="Logo">
+                    </div>
+                    <div class="copyright">
+                        <h2>© 2023</h2>
+                    </div>
+                </div>
+                <div class="menu">
+                    <div class="termos">
+                        <h2>Termos de Uso</h2>
+                    </div>
+                    <div class="sobre">
+                        <h2>Sobre</h2>
+                    </div>
+                    <div class="politica">
+                        <h2>Política de Privacidade</h2>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    
+        <script>
+        var mostrarSenhaBtn = document.getElementById("mostrarSenha");
+var senhaInput = document.getElementById("senha");
+var iconeOlho = document.getElementById("iconeOlho");
+
+mostrarSenhaBtn.addEventListener("click", function() {
+  if (senhaInput.type === "password") {
+    senhaInput.type = "text";
+    iconeOlho.src = src="./img/oculta-senha.svg";
+  } else {
+    senhaInput.type = "password";
+    iconeOlho.src = src="./img/mostra-senha.svg";
+  }
+});
+        </script>
+    </body>
+</html>
