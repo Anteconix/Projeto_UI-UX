@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    overflow-x: hidden;
+} 
+
+body{
+    background-color: #E8EDF6;
+}
+
+/* INICIO CABECALHO */
+
+.cabecalho {
+    background-color: #E8EDF6;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    border-bottom: 2px solid #525252;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logoheader img {
+    padding-left: 40px;
+    height: 50px;
+}
+
+.pesquisar-cabecalho input {
+    width: 350px;
+    height: 45px;
+    font-size: 15px;
+    border: 2px solid #525252;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+
+#pesquisar-cabecalho {
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #055849;
+}
+
+.icons img{
+    display: flex;
+    height: 35px;
+    padding-right: 40px;
+}
+
+.icons {
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.user-icon{
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.icons h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    color: #10AC45;
+    margin-left: -40px;
+}
+
+.user-icon h2{
+    color: #6a6a6a;
+}
