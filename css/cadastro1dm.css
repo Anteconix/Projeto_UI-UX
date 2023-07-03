@@ -15,6 +15,11 @@ html, body {
     left: 60px;
 }
 
+.lightmode img{
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 900px;
+}
 
 .cabecalho {
     background-color: #1d2222;
