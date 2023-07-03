@@ -58,7 +58,7 @@ body {
 .entrar{
     display: flex;
     justify-self: right;
-    padding-left: 300px;
+    padding-left: 50px;
     cursor: pointer;
 }
 
@@ -75,6 +75,13 @@ body {
 
 .entrar button:hover {
     background: #055849;
+}
+
+.lightmode img{
+    height: 45px;
+    margin-left: 250px;
+    justify-self: center;
+    align-content: center ;
 }
 
 .cabecalho {
