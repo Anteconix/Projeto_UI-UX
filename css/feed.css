@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,7 +8,7 @@
 
 html {
     overflow-x: hidden;
-} 
+}
 
 body{
     background-color: #E8EDF6;
@@ -20,20 +23,20 @@ body{
     justify-content: space-evenly;
     align-items: center;
     padding: 15px 0px 15px 0px;
-    border-bottom: 2px solid #525252;
+    border-bottom: 1px solid #525252;
     font-family: 'Rubik', sans-serif;
 }
 
 .logoheader img {
     padding-left: 40px;
-    height: 50px;
+    height: 40px;
 }
 
 .pesquisar-cabecalho input {
     width: 350px;
-    height: 45px;
+    height: 40px;
     font-size: 15px;
-    border: 2px solid #525252;
+    border: 2px none #525252;
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #ffff;
@@ -48,7 +51,7 @@ body{
 
 .icons img{
     display: flex;
-    height: 35px;
+    height: 30px;
     padding-right: 40px;
 }
 
@@ -68,11 +71,218 @@ body{
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     color: #10AC45;
     margin-left: -40px;
 }
 
+.user-icon {
+    margin-left: 30px;
+}
 .user-icon h2{
     color: #6a6a6a;
+}
+
+/* FIM CABECALHO */
+
+.meio {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+} 
+
+/* AMIGOS */
+
+.amigos{
+    width: 25%;
+    box-sizing: border-box;
+    border: 2px solid #B9B1B1;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    text-align: center;
+    font-family: 'Rubik';
+}
+.titulo-lista-amigos {
+    padding: 30px;
+    font-size: 12px;
+    color: #E8EDF6;
+    background-color: #B9B1B1;
+    border-radius: 10px;
+}
+.lista-amigos {
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    color: #B9B1B1;
+    padding: 100px 20px 200px 20px;
+}
+
+/* FEED */
+
+.feed{
+    display: flex;
+    width: 40%;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    flex-wrap: wrap;
+}
+
+.postar{
+    width: 100%;
+    display: flex;
+    border: 2px solid #B9B1B1;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    font-family: 'Rubik';
+    flex-wrap: wrap;
+}
+
+.postar1{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.pfp-postar img{
+    margin-left: 5px;
+    height: 50px;
+}
+
+.escrever input {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    border: 2px none #525252;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #ffff;
+}
+
+#escrever {
+    margin-left: 20px;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #055849;
+}
+
+.midia{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: -80px;
+    flex-wrap: nowrap;
+}
+.foto-postar{
+    display: flex;
+    padding-right: 10px;
+}
+.foto-postar img{
+    height: 25px;
+}
+
+.video-postar img{
+    height: 25px;
+}
+.video-postar{
+    display: flex;
+}
+
+.posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midia{
+    display: flex;
+}
+
+/* MENSAGENS */
+
+.mensagens{
+    width: 25%;
+    box-sizing: border-box;
+    border: 2px solid #B9B1B1;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    font-family: 'Rubik';
+}
+
+
+
+.pfp-msg img{
+    height: 80px;
+}
+
+/* INICIO RODAPE */
+
+.rodape-cadastro {
+    background-color: #D9D9D9;
+}
+
+.logofooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh ;
+    padding-bottom: 6vh;
+}
+
+.logofooter img {
+    height: 40px;
+}
+
+.logofooter h6 {
+    padding-left: -6vh;
+    font-family: inter;
+    color: #B9B1B1;
+    padding-top: 4vh;
+}
+
+.logo-copy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.copyright{
+    padding-top: 6vh;
+    margin-left: -25px;
+    color: #B9B1B1;
+    font-family: Inter;
+    font-size: 10px;
+}
+
+.menu{
+    display: flex;
+    font-weight: light;
+    font-size: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: inter;
+    color: #B9B1B1;
+    padding-bottom: 3vh;
+}
+
+.termos{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.termos a{
+    text-decoration: none;
+    color: #B9B1B1;
+}
+.sobre{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.sobre a{
+    text-decoration: none;
+    color: #B9B1B1;
+}
+.suporte{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.suporte a{
+    text-decoration: none;
+    color: #B9B1B1;
 }
