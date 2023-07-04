@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0px;
+}
+
+html, body {
+    overflow-x: hidden; 
+    background-color: #E8EDF6;
+}
+
+.logoheader img {
+    height: 55px;
+    position: relative;
+    left: 60px;
+}
+
+.darkmode img{
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 900px;
+}
+
+.cabecalho {
+    background-color: #E8EDF6;
+    margin-top: 0;
+    display: flex;
+    padding: 30px 0px 30px 30px;
+    border-bottom: 2px solid #525252;
+}
+
+.meio-cadastro {
+    display: grid;
+    background-color: #E8EDF6;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.passos h2{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: light;
+    color: #10AC45;
+    align-items: start;
+    justify-content: start;
+    padding-top: 5vh;
+}
+
+.titulo-cadastro3 h1{
+    display: flex;
+    font-size: 45px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    color: #055849;
+    align-items: start;
+    justify-content: start;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+} 
+
+.contrato h2{
+    display: flex;
+    padding: 4vh;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: #10AC45;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contrato{
+    display: flex;
+    border: 0.3vh solid;
+    border-color: #525252;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #E8E7E7;
+}
+
+.concordar-texto h2{
+    display: flex;
+    padding-top: 3vh;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: #10AC45;
+    text-align: center;
+    justify-content: center;
+}
+
+.concordar-texto h3{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: #10AC45;
+    text-align: center;
+    justify-content: center;
+}
+
+.concordar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+}
+
+.concordar button{
+    height: 13vh;
+    background: #10AC45;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 40px 10px 40px;
+    color: #ffff;
+    font-family:  'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.concordar button:hover{
+    background: #055849;
+}
+
+/* INICIO RODAPE */
+
+.rodape-cadastro {
+    margin-top: 50px;
+    background-color: #E2DED5;
+}
+
+.logofooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh ;
+    padding-bottom: 6vh;
+}
+
+.logofooter img {
+    height: 40px;
+}
+
+.logofooter h6 {
+    padding-left: -6vh;
+    font-family: inter;
+    color: #747c84;
+    padding-top: 4vh;
+}
+
+.logo-copy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.copyright{
+    padding-top: 6vh;
+    margin-left: -25px;
+    color: #747c84;
+    font-family: Inter;
+    font-size: 10px;
+}
+
+.menu{
+    display: flex;
+    font-weight: light;
+    font-size: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: inter;
+    color: #747c84;
+    padding-bottom: 3vh;
+}
+
+.termos{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.termos a{
+    text-decoration: none;
+    color: #747c84;
+}
+.sobre{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.sobre a{
+    text-decoration: none;
+    color: #747c84;
+}
+.suporte{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.suporte a{
+    text-decoration: none;
+    color: #747c84;
+}
