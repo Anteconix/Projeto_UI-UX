@@ -36,9 +36,15 @@ body {
     padding-left: 180px;
     cursor: pointer;
 }
+.menu-suporte a{
+    text-decoration: none;
+}
 .menu-sobre {
     padding-left: 80px;
     cursor: pointer;
+}
+.menu-sobre a{
+    text-decoration: none;
 }
 .menu-vagas {
     padding-left: 80px;
@@ -377,6 +383,8 @@ body {
     top: 21px;
 }
 
+/* INICIO RODAPE */
+
 .rodape-cadastro {
     background-color: #E2DED5;
 }
@@ -414,7 +422,6 @@ body {
 }
 
 .menu{
-    padding-left: 12vh;
     display: flex;
     font-weight: light;
     font-size: 13px;
@@ -426,7 +433,7 @@ body {
 }
 
 .termos{
-    padding: 0vh 3vh 0vh 3vh;
+    padding: 0vh 3vh 0vh 0vh;
 }
 .termos a{
     text-decoration: none;
@@ -435,6 +442,14 @@ body {
 .sobre{
     padding: 0vh 3vh 0vh 3vh;
 }
-.politica{
+.sobre a{
+    text-decoration: none;
+    color: #747c84;
+}
+.suporte{
     padding: 0vh 3vh 0vh 3vh;
+}
+.suporte a{
+    text-decoration: none;
+    color: #747c84;
 }

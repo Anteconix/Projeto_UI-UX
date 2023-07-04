@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.logoheader img {
+    height: 70px;
+    padding-left: 45px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu h1 {
+    font-size: 30px;
+    font-family:  'Rubik', sans-serif;
+    color: #525252;
+    font-weight: lighter;
+}
+
+.menu-suporte {
+    padding-left: 180px;
+    cursor: pointer;
+}
+.menu-suporte a{
+    text-decoration: none;
+}
+.menu-sobre {
+    padding-left: 80px;
+    cursor: pointer;
+}
+.menu-sobre a{
+    text-decoration: none;
+}
+.menu-vagas {
+    padding-left: 80px;
+    cursor: pointer;
+}
+.menu-cadastro {
+    padding-left: 80px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.menu-cadastro a{
+    text-decoration: none;
+}
+
+.entrar{
+    display: flex;
+    justify-self: right;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.entrar button{
+    background: #10AC45;
+    border-radius: 200px;
+    border: none;
+    font-size: 30px;
+    padding: 10px 40px 10px 40px;
+    color: #ffff;
+    font-family:  'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.entrar button:hover {
+    background: #148038;
+}
+
+.darkmode img{
+    height: 45px;
+    margin-left: 250px;
+    justify-self: center;
+    align-content: center ;
+
+}
+
+.cabecalho {
+    background-color: #E8EDF6;
+    margin-top: 0;
+    display: flex;
+    padding: 30px 0px 30px 30px;
+    border-bottom: 2px solid #525252;
+}
+
+.meio {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 70px;
+    padding-right: 930px;
+    font-family: inter;
+}
+
+.texto-info {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.about-us h1{
+    font-family: 'Rubik', sans-serif;
+}
+
+.about-us h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #055849;
+    font-size: 35px;
+}
+
+.about-us h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: light;
+}
+
+.about-us a {
+    font-weight: bold ;
+}
+
+.img-sobre {
+    width: 50%;   
+    height: 85%;
+    position: relative;
+    right: 650px;
+    top: 60px;
+    border-radius: 350px;
+    background-color: #055849;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.equipe {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-cadastro {
+    background-color: #E2DED5;
+}
+
+.logofooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh ;
+    padding-bottom: 6vh;
+}
+
+.logofooter img {
+    height: 55px;
+}
+
+.logofooter h6 {
+    padding-left: -6vh;
+    font-family: inter;
+    color: #747c84;
+    padding-top: 4vh;
+}
+
+.logo-copy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.copyright{
+    padding-top: 6vh;
+    margin-left: -25px;
+    color: #747c84;
+    font-family: Inter;
+    font-size: 10px;
+}
+
+.menu{
+    display: flex;
+    font-weight: light;
+    font-size: 13px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: inter;
+    color: #747c84;
+    padding-bottom: 3vh;
+}
+
+.termos{
+    padding: 0vh 3vh 0vh 0vh;
+}
+.termos a{
+    text-decoration: none;
+    color: #747c84;
+}
+.sobre{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.sobre a{
+    text-decoration: none;
+    color: #747c84;
+}
+.suporte{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.suporte a{
+    text-decoration: none;
+    color: #747c84;
+}

@@ -1,0 +1,236 @@
+.logoheader img {
+    height: 70px;
+    padding-left: 45px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menu h1 {
+    font-size: 30px;
+    font-family:  'Rubik', sans-serif;
+    color: #525252;
+    font-weight: lighter;
+}
+
+.menu-suporte {
+    padding-left: 180px;
+    cursor: pointer;
+}
+.menu-suporte a{
+    text-decoration: none;
+}
+.menu-sobre {
+    padding-left: 80px;
+    cursor: pointer;
+}
+.menu-sobre a{
+    text-decoration: none;
+}
+.menu-vagas {
+    padding-left: 80px;
+    cursor: pointer;
+}
+.menu-cadastro {
+    padding-left: 80px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.menu-cadastro a{
+    text-decoration: none;
+}
+
+.entrar{
+    display: flex;
+    justify-self: right;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.entrar button{
+    background: #10AC45;
+    border-radius: 200px;
+    border: none;
+    font-size: 30px;
+    padding: 10px 40px 10px 40px;
+    color: #ffff;
+    font-family:  'Rubik', sans-serif;
+    cursor: pointer;
+}
+.entrar a{
+    text-decoration: none;
+}
+
+.entrar button:hover {
+    background: #148038;
+}
+
+.darkmode img{
+    height: 45px;
+    margin-left: 250px;
+    justify-self: center;
+    align-content: center ;
+
+}
+
+.cabecalho {
+    background-color: #E8EDF6;
+    margin-top: 0;
+    display: flex;
+    padding: 30px 0px 30px 30px;
+    border-bottom: 2px solid #525252;
+}
+
+.container {
+    display: flex;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sup-form {
+    height: 40rem;
+    width: 40rem;
+    position: relative;
+    top: 70px;
+    color: #055849;
+    font-weight: bold;
+    font-family: inter;
+    font-size: 20px;
+    gap: 10px;
+}
+
+.sup-form a, button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sup-form input, select {
+    margin-top: 10px;
+    border-radius: 7px;
+    height: 55px;
+    border: 2px solid #676767 ;
+    font-size: 20px;
+    padding: 12px;
+    background-color: #E8E7E7;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #055849;
+}
+
+.btn-send {
+    padding-top: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40vh;
+}
+
+.btn-send button{
+    height: 7vh;
+    width: 30vh;
+    background: #10AC45;
+    border-radius: 7px;
+    border: none;
+    font-size: 30px;
+    padding: 10px 40px 10px 40px;
+    color: #ffff;
+    font-family:  'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+.btn-send button:hover{
+    background: #055849;
+}
+
+#info {
+    height: 150px;
+}
+
+.ticket {
+    background-color: #E8EDF6;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.rodape-cadastro {
+    padding-top: 55px;
+    background-color: #E2DED5;
+}
+
+.logofooter {
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh ;
+    padding-bottom: 6vh;
+}
+
+.logofooter img {
+    height: 55px;
+}
+
+.logofooter h6 {
+    padding-left: -6vh;
+    font-family: inter;
+    color: #747c84;
+    padding-top: 4vh;
+}
+
+.logo-copy{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.copyright{
+    padding-top: 6vh;
+    margin-left: -25px;
+    color: #747c84;
+    font-family: Inter;
+    font-size: 10px;
+}
+
+.menu{
+    display: flex;
+    font-weight: light;
+    font-size: 13px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: inter;
+    color: #747c84;
+    padding-bottom: 3vh;
+}
+
+.termos{
+    padding: 0vh 3vh 0vh 0vh;
+}
+.termos a{
+    text-decoration: none;
+    color: #747c84;
+}
+.sobre{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.sobre a{
+    text-decoration: none;
+    color: #747c84;
+}
+.suporte{
+    padding: 0vh 3vh 0vh 3vh;
+}
+.suporte a{
+    text-decoration: none;
+    color: #747c84;
+}

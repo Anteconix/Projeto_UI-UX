@@ -149,7 +149,7 @@ html, body {
 .logofooter h6 {
     padding-left: -6vh;
     font-family: inter;
-    color: #525252;
+    color: #747c84;
     padding-top: 4vh;
 }
 
@@ -162,20 +162,19 @@ html, body {
 .copyright{
     padding-top: 6vh;
     margin-left: -25px;
-    color: #525252;
+    color: #747c84;
     font-family: Inter;
     font-size: 10px;
 }
 
 .menu{
-    padding-left: 12vh;
     display: flex;
     font-weight: light;
     font-size: 10px;
     flex-wrap: nowrap;
     justify-content: center;
     font-family: inter;
-    color: #525252;
+    color: #747c84;
     padding-bottom: 3vh;
 }
 
@@ -184,11 +183,19 @@ html, body {
 }
 .termos a{
     text-decoration: none;
-    color: #525252;
+    color: #747c84;
 }
 .sobre{
     padding: 0vh 3vh 0vh 3vh;
 }
-.politica{
+.sobre a{
+    text-decoration: none;
+    color: #747c84;
+}
+.suporte{
     padding: 0vh 3vh 0vh 3vh;
+}
+.suporte a{
+    text-decoration: none;
+    color: #747c84;
 }
